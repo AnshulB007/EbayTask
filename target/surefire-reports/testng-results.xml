@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-16T11:43:22 IST" name="Surefire suite" finished-at="2023-04-16T11:44:39 IST" duration-ms="77376">
+  <suite started-at="2023-04-16T12:45:14 IST" name="Surefire suite" finished-at="2023-04-16T12:46:20 IST" duration-ms="66036">
     <groups>
     </groups>
-    <test started-at="2023-04-16T11:43:22 IST" name="Surefire test" finished-at="2023-04-16T11:44:39 IST" duration-ms="77376">
+    <test started-at="2023-04-16T12:45:14 IST" name="Surefire test" finished-at="2023-04-16T12:46:20 IST" duration-ms="66036">
       <class name="com.ab.testLayer.AddtoCartFunctionaltyTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.ab.testLayer.AddtoCartFunctionaltyTest@69930714]" started-at="2023-04-16T11:43:22 IST" name="launchApplication" finished-at="2023-04-16T11:43:35 IST" duration-ms="13137" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.ab.testLayer.AddtoCartFunctionaltyTest@69930714]" started-at="2023-04-16T12:45:14 IST" name="launchApplication" finished-at="2023-04-16T12:45:27 IST" duration-ms="13025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="addToCartTest()[pri:0, instance:com.ab.testLayer.AddtoCartFunctionaltyTest@69930714]" started-at="2023-04-16T11:43:35 IST" name="addToCartTest" finished-at="2023-04-16T11:43:59 IST" duration-ms="23951" status="PASS">
+        <test-method signature="addToCartTest()[pri:0, instance:com.ab.testLayer.AddtoCartFunctionaltyTest@69930714]" started-at="2023-04-16T12:45:27 IST" name="addToCartTest" finished-at="2023-04-16T12:45:42 IST" duration-ms="14619" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ab.testLayer.AddtoCartFunctionaltyTest@69930714]" started-at="2023-04-16T11:43:59 IST" name="tearDown" finished-at="2023-04-16T11:44:01 IST" duration-ms="1262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ab.testLayer.AddtoCartFunctionaltyTest@69930714]" started-at="2023-04-16T12:45:42 IST" name="tearDown" finished-at="2023-04-16T12:45:43 IST" duration-ms="1167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ab.testLayer.AddtoCartFunctionaltyTest -->
       <class name="com.ab.testLayer.BrokenLinkTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.ab.testLayer.BrokenLinkTest@358ee631]" started-at="2023-04-16T11:44:01 IST" name="launchApplication" finished-at="2023-04-16T11:44:10 IST" duration-ms="9552" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.ab.testLayer.BrokenLinkTest@358ee631]" started-at="2023-04-16T12:45:43 IST" name="launchApplication" finished-at="2023-04-16T12:45:52 IST" duration-ms="8389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="checkAllFooterLinks()[pri:0, instance:com.ab.testLayer.BrokenLinkTest@358ee631]" started-at="2023-04-16T11:44:10 IST" name="checkAllFooterLinks" finished-at="2023-04-16T11:44:39 IST" duration-ms="28547" status="PASS">
+        <test-method signature="checkAllFooterLinks()[pri:0, instance:com.ab.testLayer.BrokenLinkTest@358ee631]" started-at="2023-04-16T12:45:52 IST" name="checkAllFooterLinks" finished-at="2023-04-16T12:46:19 IST" duration-ms="27826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAllFooterLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ab.testLayer.BrokenLinkTest@358ee631]" started-at="2023-04-16T11:44:39 IST" name="tearDown" finished-at="2023-04-16T11:44:39 IST" duration-ms="838" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ab.testLayer.BrokenLinkTest@358ee631]" started-at="2023-04-16T12:46:19 IST" name="tearDown" finished-at="2023-04-16T12:46:20 IST" duration-ms="916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
