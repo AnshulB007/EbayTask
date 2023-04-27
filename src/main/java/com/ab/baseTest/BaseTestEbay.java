@@ -85,7 +85,7 @@ public class BaseTestEbay {
 
 	}
 
-	@AfterMethod
+//	@AfterMethod
 	public void tearDown() {
 
 		if (driver != null) {

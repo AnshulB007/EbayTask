@@ -32,6 +32,7 @@ public class ProductPage {
 				
 				driver.switchTo().window(id);
 				System.out.println(product.getText());
+				
 			}
 		}
 

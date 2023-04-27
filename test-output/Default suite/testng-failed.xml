@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ab.testLayer.BrokenLinkTest">
+      <class name="com.ab.testLayer.AddtoCartFunctionaltyTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="checkAllFooterLinks"/>
+          <include name="addToCartTest"/>
           <include name="launchApplication"/>
         </methods>
-      </class> <!-- com.ab.testLayer.BrokenLinkTest -->
+      </class> <!-- com.ab.testLayer.AddtoCartFunctionaltyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

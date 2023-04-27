@@ -7,7 +7,7 @@ import com.ab.baseTest.BaseTestEbay;
 
 public class Checks extends  BaseTestEbay {
 	
-	@Test
+//	@Test
 	public void main() {
 		
 		System.out.println("hi");
