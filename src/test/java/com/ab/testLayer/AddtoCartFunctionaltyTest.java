@@ -8,7 +8,7 @@ public class AddtoCartFunctionaltyTest extends BaseTestEbay {
 	
 	
 	@Test
-	public void addToCartTest() {
+	public void addToCartTest() throws InterruptedException {
 	
 		hp_obj.searchBoxInput("Camera");
 		hp_obj.clickOnSearch();

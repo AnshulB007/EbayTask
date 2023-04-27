@@ -1,6 +1,7 @@
 package com.ab.pageLayer;
 
 
+import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
@@ -20,21 +21,31 @@ public class ProductPage {
 	@FindBy(css = "h1.x-item-title__mainTitle")
 	private WebElement product;
 
-	public void getFirstProductName() {
+	public void getFirstProductName() throws InterruptedException {
 		
-		String pid =driver.getWindowHandle();
+		
 		
 		Set<String> childId = driver.getWindowHandles();
 		
-		for(String id: childId ) {
-			
-			if(!id.equals(pid)) {
-				
-				driver.switchTo().window(id);
-				System.out.println(product.getText());
-				
-			}
-		}
+		Iterator<String> it = childId.iterator();
+		
+		String new_pid = it.next();
+		String new_cid=it.next();
+		
+		
+		driver.switchTo().window(new_cid);
+		Thread.sleep(2000);
+		System.out.println(product.getText());
+		
+//		for(String id: childId ) {
+//			
+//			if(!id.equals(pid)) {
+//				
+//				driver.switchTo().window(id);
+//				System.out.println(product.getText());
+//				
+//			}
+//		}
 
 	}
 

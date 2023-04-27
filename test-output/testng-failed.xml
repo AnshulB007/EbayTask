@@ -5,6 +5,7 @@
     <classes>
       <class name="com.ab.testLayer.AddtoCartFunctionaltyTest">
         <methods>
+          <include name="tearDown"/>
           <include name="addToCartTest"/>
           <include name="launchApplication"/>
         </methods>
