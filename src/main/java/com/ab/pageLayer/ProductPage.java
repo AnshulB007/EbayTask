@@ -33,8 +33,8 @@ public class ProductPage {
 		String new_cid=it.next();
 		
 		
-		driver.switchTo().window(new_cid);
-		Thread.sleep(2000);
+		driver.switchTo().window(it.next());
+		
 		System.out.println(product.getText());
 		
 //		for(String id: childId ) {
